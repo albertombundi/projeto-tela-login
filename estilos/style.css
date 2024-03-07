@@ -48,8 +48,8 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
-    background-position: left bottom;
     background-size: cover;
+    background-position: left bottom;
     height: 200px;
    
 }
@@ -81,6 +81,7 @@ form > div.campo {
     margin: 5px 0px;
 }
 
+
 div.campo > label {
     display: none;
 }
@@ -94,15 +95,15 @@ div.campo > i {
 }
 
 div.campo > input {
-
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    border: 0px;
     border-radius: 8px;
     padding: 4px; 
-    transition: translateY(-10px);
+    transform: translateY(-12px);
+    border: 0px;
+    padding: 4px; 
 }
 
 div.campo > input:focus-within {
